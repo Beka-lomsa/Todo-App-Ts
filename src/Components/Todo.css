@@ -1,0 +1,100 @@
+* {
+  font-family: 'Inter', sans-serif; 
+}
+
+.todoFormContainer{ 
+  width: 373px;
+  min-height: 375px;
+  height: auto;
+  margin-top: 23px;
+  margin-left: 29px;
+}
+.text_add_Btn {
+  display: flex;
+  width: 373px;
+  height: 49px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.text {
+  width: 275px;
+  height: 49px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #EBEFF2;
+}
+.checkedIcon{
+  width: 24px;
+  height: 24px;
+  color: #20EEB0;
+  margin-left: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.emptycircle{ 
+  color: #20EEB0;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  margin-left: 14px;
+  margin-right: 10px;
+}
+.recycleBin{
+  color:  #FF4545;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.editIcon {
+  color:  rgb(134, 134, 204);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-right: 7px;
+}
+.inputText{ 
+  border: none;
+  height: 100%;
+  width: 210px;
+  background: transparent;
+  outline: none;
+  color: #888;
+  font-size: 15px;
+}
+.addBtn{
+  width: 88px;
+  height: 49px;
+  background: #20EEB0;
+  font-size: 35px;
+  font-weight: 50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.listedElement {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkRecycleBin{
+  display: flex;
+}
+.checkRecycleBin p {
+  margin-left: 14px;
+}
+.inputedText{
+  text-transform: capitalize;
+  color: #0D0D0D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.fullHour {
+  color: #888;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

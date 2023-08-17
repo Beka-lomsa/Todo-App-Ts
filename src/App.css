@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+}
+.container h1 {
+  color: #007FDB;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 296px;
+  font-family: inter;
+}
+.todocontainer{
+  width: 430px;
+  height: 655px;
+  background: #FFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
