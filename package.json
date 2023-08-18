@@ -30,10 +30,7 @@
     "vite": "^4.4.0"
   },
     "compilerOptions": {
-      "target": "esnext",
-      "module": "esnext",
-      "strict": true,
-      "esModuleInterop": true,
-      "allowSyntheticDefaultImports": true
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true 
     }
 }
